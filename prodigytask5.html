@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="prodigytask5.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+         <p c>Weather🌥️</p>
+          <ul class="menu-links">
+            <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+</header>
+    <div class="container">
+        <h1 style="color: beige";>Weather App</h1>
+        <label for="location">Enter location:</label>
+        <input type="text" id="location" placeholder="Enter city name">
+        <button onclick="getWeather()">Go</button>
+        <div id="weather-info"></div>
+    </div>
+
+    <script src="prodigytask5.js"></script>
+</body>
+</html>
